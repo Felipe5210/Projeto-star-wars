@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+section{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.option ul li{
+  list-style: none;
+  align-items: center;
+  color: #ffd700;
+}
+.card{
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-29_9e72b83c.png?download=true);
+}
+button a {
+  text-decoration: none;
+  color: #ffd700;
+}
+button{
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 2px;
+}

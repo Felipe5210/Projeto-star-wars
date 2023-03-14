@@ -1,0 +1,37 @@
+<section>
+  <div *ngFor="let personagem of personagens">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-12">
+            <div class="card card_red text-center">
+              <div class="title">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                <img src="{{ personagem.avatar }}" alt="" />
+              </div>
+              <div class="price">
+                <h4>{{ personagem.nome }}</h4>
+              </div>
+              <div class="option">
+                <ul>
+                  <li>
+                    <strong>Habilidade: </strong>{{ personagem.habilidade }}
+                  </li>
+                  <li><strong>Planeta: </strong>{{ personagem.planeta }}</li>
+                  <li><strong>Armas: </strong>{{ personagem.armas }}</li>
+                </ul>
+              </div>
+              <button
+                class="btn btn-outline-warning"
+                title="saibamais"
+                type="button"
+              >
+                <a href="#">Saiba Mais</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
